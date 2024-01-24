@@ -1,0 +1,142 @@
+*{
+
+    background-color:#000000 ;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family:'kadm thmor pro' , sans-serif;}
+
+.sort {
+    
+    
+    display: block;
+    margin: auto;
+    margin-top: 213px;
+    font-size: 58px;
+    color: red;} 
+
+img {
+
+    display: block;
+    margin: auto;
+    margin-top: -1px; 
+    width: 326px;}
+
+p {
+
+    color: white;
+    text-align: center;
+    margin-top: -37px;
+    margin-left: 12px;
+    font-size: 30px;}
+
+.n1, .n2 {
+
+   
+    width: 602px;
+    height: 64px;
+    display: flex;
+    margin: auto;}
+
+.inp1, .inp2 { 
+
+    width: 257px;
+    margin: auto;
+    height: 54px;
+    background-color: rgb(174, 179, 184);
+    border: none;
+    border-radius: 10px;
+    font-size: 26px;
+    text-align: center;
+    color: rgb(63, 66, 68);
+    appearance: none;}
+
+button { 
+
+    background-color: rgb(230, 90, 90);
+    width: 183px;
+    height: 43px;
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    color: white;
+    font-size: large;} 
+
+button:hover {
+
+    opacity: 0.8;}
+    
+button:active {
+    
+    opacity:0.6;}
+
+    @media screen and (max-width:596px){
+
+       *{
+
+        align-items: center;}
+        .sort {
+
+            margin-left: 10%;
+            margin-top: 21%;}
+
+
+        img {
+
+            margin-left: 20%;
+            width: 67%;
+            margin-top: 2%;}
+
+        .pp {
+            
+            width: 119%;
+            margin-left: -8%;
+            margin-top: -12%;}
+
+        .n1 {   
+
+            flex-direction: column;
+            width: 115%;
+            margin-left: -6%;
+            height: 150%;
+            margin-top: 5%;}
+        
+        .inp1, .inp2 {
+
+            margin-bottom: 5%;
+            width: 30%;}
+        .sn {
+
+            font-size: 108%;
+            }
+
+        button {
+
+            display: block;
+            margin: auto;
+            margin-top: -1%;
+            width: 24%;
+            font-size: 70%;}
+
+
+        }
+
+
+
+
+
+
+
+
+
+            
+        
+
+   
+    
+
+    
